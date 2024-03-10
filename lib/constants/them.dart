@@ -14,7 +14,7 @@ class MyAppThemeConfig {
         backgroundColor = dblack,
         card = greypost,
         more = purple,
-        navigashen =dblack;
+        navigashen = dblack;
 
   MyAppThemeConfig.light()
       : primaryTextColor = black,
@@ -28,7 +28,7 @@ class MyAppThemeConfig {
       scaffoldBackgroundColor: backgroundColor,
       cardColor: card,
       canvasColor: more,
-      accentColor: navigashen,
+      shadowColor: navigashen,
       hintColor: primaryTextColor,
       appBarTheme: AppBarTheme(backgroundColor: backgroundColor, elevation: 0),
       fontFamily: 'SM',

@@ -25,7 +25,7 @@ class _BottomNavigatorState extends State<BottomNavigator> {
       extendBody: true,
       bottomNavigationBar: BottomNavigationBar(
           type: BottomNavigationBarType.fixed,
-          backgroundColor: Theme.of(context).accentColor,
+          backgroundColor: Theme.of(context).shadowColor,
           onTap: (int index) {
             setState(() {
               _selectedBottom = index;
@@ -34,7 +34,6 @@ class _BottomNavigatorState extends State<BottomNavigator> {
           currentIndex: _selectedBottom,
           showSelectedLabels: false,
           showUnselectedLabels: false,
-          
           items: [
             BottomNavigationBarItem(
               icon: Image.asset('images/icon_profile.png'),
