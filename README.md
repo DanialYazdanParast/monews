@@ -6,7 +6,7 @@
 </a>
 
 
-## Description :
+## Description 
 monews is the appearance of a news appmonews is designed to provide users with up-to-date information on a variety of topics, including breaking news, sports, entertainment, and more. With a user-friendly interface and customizable features, monews aims to keep readers informed and engaged with the latest headlines and stories.
 
 
